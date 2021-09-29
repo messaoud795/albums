@@ -1,0 +1,30 @@
+.album {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 25rem;
+  transition: all 0.4s;
+}
+
+.album__cover {
+  height: 28rem;
+}
+.album__title {
+  color: white;
+  font-weight: 700;
+  margin: 1rem 0 0.7rem;
+  letter-spacing: 1px;
+}
+.album__artist {
+  font-weight: 600;
+  color: rgb(156, 151, 151);
+}
+.album:hover {
+  transform: scale(1.06);
+}
+.album__logo {
+  position: absolute;
+  height: 2rem;
+  top: 25rem;
+  left: 90%;
+}
